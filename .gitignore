@@ -1,0 +1,25 @@
+CakePHP 3
+
+/app/config/app.php
+/app/tmp/*
+/app/logs/*
+
+CakePHP 2
+
+app/tmp/*
+app/Config/core.php
+app/Config/database.php
+app/config/database.php
+
+.DS_Store
+/semantic/
+/node_modules/
+#/app/views/themed/tablesavvy/webroot/semantic/*
+/app/views/themed/tablesavvy/webroot/node_modules/*
+#app/views/themed/tablesavvy/webroot/css/site.css
+app/views/themed/tablesavvy/webroot/css/site.css.map
+app/webroot/img/*
+app/webroot/images/*
+*.pem
+tablesavvyprodpushcertificate-cert-key.pem
+/nbproject/private/
