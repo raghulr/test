@@ -1,0 +1,14 @@
+{
+        "Memory":
+                {"Total": "4011M",
+                 "Free": "3385M",
+                 "Used": "626M",
+                 "Perc": "16%"},
+        "CPU":
+                {"Usage": "1.2%"},
+        "DISK":
+                {"Total": "161G",
+                 "Used": "26G",
+                 "Free": "127G",
+                 "Perc": "17%"}
+      }

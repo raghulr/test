@@ -1,0 +1,54 @@
+.jcarousel-skin-tango .jcarousel-container {
+   
+}
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 978px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width:  978px;
+}
+
+.jcarousel-skin-tango .jcarousel-item {
+    width: 978px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+	
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	}
+
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+  
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 220px;
+    right: 5px;
+    width: 8px;
+    height: 12px;
+    cursor: pointer;
+	background:url(../images/caret-right-smaller.png) no-repeat 0 0;
+}
+
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 220px;
+    left: 5px;
+    width: 8px;
+    height: 12px;
+    cursor: pointer;
+    background:url(../images/caret-left-smaller.png) no-repeat 0 0;
+}

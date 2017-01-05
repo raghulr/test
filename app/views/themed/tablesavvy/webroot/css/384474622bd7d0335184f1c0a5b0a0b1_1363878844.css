@@ -1,0 +1,34 @@
+/* jquery.alerts.css */
+#popup_container{font-family:Arial, sans-serif;font-size:12px;min-width:300px;max-width:600px;background:#FFF;border:solid 5px #999;color:#000;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;}
+#popup_title{font-size:14px;font-weight:700;text-align:center;line-height:1.75em;color:#666;background:#CCC url(images/title.gif) top repeat-x;border:solid 1px #FFF;border-bottom:solid 1px #999;cursor:default;text-indent:-99999px;margin:0;padding:0;}
+#popup_content{background:16px 16px no-repeat url(images/info.gif);margin:0;padding:1em 1.75em;}
+#popup_content.alert{background-image:url(images/info.gif);}
+#popup_content.prompt{background-image:url(images/help.gif);}
+#popup_message{padding-left:46px;}
+#popup_panel{text-align:center;margin:1em 0 0 1em;}
+#popup_prompt{margin:.5em 0;}
+/* ie8.css */
+input.textbox-contact,textarea.textarea-contact{width:278px;height:37px;border:1px solid #C6C4C4;outline:none;float:right;font-family:Arial, Helvetica, sans-serif;background-color:#FBFBFB;-webkit-border-radius:5px;-khtml-border-radius:5px;-moz-border-radius:5px;border-radius:5px;font-size:13px;color:#747474;line-height:37px;margin:0;padding:0 10px;}
+input.textbox-signup{border:1px solid #C6C4C4;outline:none;float:right;font-family:Arial, Helvetica, sans-serif;background-color:#FBFBFB;-webkit-border-radius:5px;-khtml-border-radius:5px;-moz-border-radius:5px;border-radius:5px;font-size:13px;color:#747474;line-height:37px;margin:0;padding:0 10px;}
+textarea.textarea-contact{border:1px solid #C6C4C4;outline:none;float:right;font-family:Arial, Helvetica, sans-serif;background-color:#FBFBFB;-webkit-border-radius:5px;-khtml-border-radius:5px;-moz-border-radius:5px;border-radius:5px;font-size:13px;color:#747474;line-height:16px;margin:0;padding:10px;}
+/* skin.css */
+.jcarousel-skin-tango .jcarousel-container-horizontal{width:312px;padding-left:42px;}
+.jcarousel-skin-tango .jcarousel-clip{overflow:hidden;}
+.jcarousel-skin-tango .jcarousel-clip-horizontal{width:282px;}
+.jcarousel-skin-tango .jcarousel-item{width:86px;height:40px;margin-right:8px;}
+.jcarousel-skin-tango .jcarousel-item-horizontal{margin-left:0;}
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal{margin-right:0;}
+.jcarousel-skin-tango .jcarousel-item-placeholder{border-right:none;color:#000;}
+.jcarousel-skin-tango .jcarousel-next-horizontal{position:absolute;right:0;width:31px;height:37px;cursor:pointer;background:url(../images/arrwR.png) no-repeat center center;opacity:0.6;border-bottom-right-radius:5px;border-top-right-radius:5px;color:#555!important;text-shadow:none;}
+.jcarousel-skin-tango .jcarousel-prev-horizontal{position:absolute;width:31px;height:37px;cursor:pointer;left:6px;background:url(../images/arrwL.png) no-repeat center center;opacity:0.6;border-bottom-left-radius:5px;border-top-left-radius:5px;color:#555!important;text-shadow:none;}
+.jcarousel-skin-tangos1 .jcarousel-container-horizontal{width:940px;padding:20px;}
+.jcarousel-skin-tangos1 .jcarousel-clip{overflow:hidden;}
+.jcarousel-skin-tangos1 .jcarousel-clip-horizontal{width:940px;}
+.jcarousel-skin-tangos1 .jcarousel-item{width:300px;height:200px;margin:0;}
+.jcarousel-skin-tangos1 .jcarousel-item-horizontal{margin-left:0;}
+.jcarousel-skin-tangos1 .jcarousel-direction-rtl .jcarousel-item-horizontal{margin-right:0;}
+.jcarousel-skin-tangos1 .jcarousel-item-placeholder{border-right:none;color:#000;}
+.jcarousel-skin-tangos1 .jcarousel-next-horizontal{position:absolute;right:0;width:25px;height:25px;cursor:pointer;top:100px;background:#FFF url(../images/caret-right.png) no-repeat center center;border-bottom-left-radius:3px;border-top-left-radius:3px;box-shadow:0 0 6px #666;line-height:1;padding:10px;}
+.jcarousel-skin-tangos1 .jcarousel-prev-horizontal{position:absolute;width:25px;height:25px;cursor:pointer;left:0;top:100px;background:#FFF url(../images/caret-left.png) no-repeat center center;border-bottom-right-radius:3px;border-top-right-radius:3px;box-shadow:0 0 6px #666;line-height:1;padding:10px;}
+.jcarousel-prev-disabled{background:none!important;border:0;}
+.jcarousel-next-disabled{background:none!important;border:0;}

@@ -1,0 +1,41 @@
+.toolTip {
+        padding-right: 0px;
+        color: #fff;
+        position: relative;
+		display: block; 
+}
+.toolTipWrapper { /* The wrapper holds its insides together */
+		width: 294px;
+		position: absolute; /* Absolute will make the tooltip float above other content in the page */
+		top: 10px;				
+		display: block; /* It has to be displayed none so that the jQuery fadein and fadeout functions will work */
+		color: #FFF;
+		font-weight: normal;
+		font-size: 12px; /* A font size is needed to maintain consistancy */
+		z-index:10000;
+		margin-left:25px;
+		
+	}
+	
+		.toolTipTop { /* Top section of the tooltip */
+			z-index:1;
+			width: 200px;
+			height: 29px;
+			background:url(../images/bubbleTop.png) no-repeat;
+		}
+
+		.toolTipMid { /* Middle section of the tooltip */
+			padding: 6px 7px;	
+			background:url(../images/bubbleMid.png) repeat-y top;
+			line-height:1.2em;
+			z-index:10000;
+			width:186px;
+			
+		}
+		
+		.toolTipBtm { /* Bottom Section of the tooltip */
+			height: 13px;
+			background:url(../images/bubbleBtm.png) no-repeat;
+			z-index:10000;
+			
+		}

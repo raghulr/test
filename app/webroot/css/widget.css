@@ -1,0 +1,109 @@
+@import("reset.css");
+body{
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 8.5pt;
+}
+h3 {
+    color: #000000;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 16pt;
+    line-height: 1.1em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    text-align: center;
+}
+.tsSubmit a{
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #444444;
+}
+#change{
+    width: 100%;
+}    
+.jcarousel-prev-disabled{
+    background:url(images/left_dis.png) no-repeat 0 0 transparent !important;
+    height:15px !important;
+}
+.jcarousel-next-disabled{
+    background:url(images/right_dis.png) no-repeat 0 0 transparent !important;
+    height:15px !important;
+}
+.toolTip{
+    display:inline !important;
+}
+.jcarousel1-skin-tangos .jcarousel1-clip-horizontal{
+    margin:0 0 0 0px !important;
+    width: 300px !important;
+    height: 390px !important;
+}
+#select_search{
+    padding-bottom:0px !important;
+}
+.clearfix{
+    overflow:inherit !important;
+}
+.jcarousel-skin-tango .jcarousel-container-horizontal{
+    width:150px;
+}
+a{
+    color:#FFFFFF !important;
+    font-weight:bold;
+}
+.search{
+    text-decoration:none; 
+    color:#FFFFFF; 
+    text-shadow:0 1px 0 #444444; 
+}
+.product .prodcut_details {
+    float: left;
+
+}
+.product .prodcut_details {
+    color: #666666;
+    font-size: 0.8em;
+    margin-bottom: 5px;
+}
+.res_name {
+    color: #0099CD !important;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.product-name{
+	font-size:18px;
+	display:block;
+	font-weight:bold;
+}
+.prodcucontainer li.product span {
+    color: #797A7A;
+    font-family: arial;
+    font-size: 14px !important;
+    padding-bottom: 4px;
+    z-index: 2;
+}
+.prodcut_details{
+    float: left;
+   width: 100%;
+}
+
+.chnge{
+	color:#FFFFFF !important;
+}
+
+.prodcucontainer ul{
+    margin: 0;
+    padding: 0;
+}
+.prodcucontainer li.product {
+    float: left;
+    list-style: none outside none;
+    margin: 6px 0px 0 0;
+    width: 300px;
+    height: 390px;
+}
+#mycarousel li{
+  list-style: none;
+  float: left;
+  width: 100%;
+}

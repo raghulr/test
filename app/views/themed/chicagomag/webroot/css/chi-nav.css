@@ -1,0 +1,318 @@
+@import "ads.css";
+
+/* CSS Document */
+
+/* top main navigation */
+
+#navigation-container {
+	float:left;
+	width:980px;
+	height:29px;
+	border-bottom: 1px solid #bbb;
+	font-family: Arial, Verdana, sans-serif;
+	overflow:hidden;
+}
+	
+#navigation-container a {
+	outline:none;
+
+	}
+
+ul#nav {
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	list-style:none;
+	height:29px;
+	background-image:url(../images/nav-temp.jpg);
+	background-repeat:no-repeat;
+	}
+
+ul#nav li {
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	list-style:none;
+	display:inline;
+	float:left;
+	}
+	
+ul#nav li a img {
+	height:29px;
+	width:100%;
+	}
+	
+ul#nav li a {
+	display:block;
+	height:29px;
+	}
+	
+table#nav {
+	width: 100%;
+	background-color:#000;
+}
+	
+table#nav td{
+	border-right:1px solid #FFF;
+}
+	
+#nav #nav-home{
+	width:51px;
+	height:29px;
+	background-image:url(../images/nav-dark-home.gif);
+	background-repeat:no-repeat;
+	background-position:0 -2px;
+	}
+	
+#nav #nav-home:hover {
+	background-position:0 -36px;
+	}
+	
+#nav #nav-archive{
+	width:68px;
+	height:29px;
+	background-image:url(../images/nav-dark-archive.gif);
+	background-repeat:no-repeat;
+	background-position:0 -2px;
+	}
+	
+#nav #nav-archive:hover {
+	background-position:0 -36px;
+	}
+
+#nav #nav-dining{
+	width:68px;
+	height:29px;
+	background-image:url(../images/nav-dark-dining.gif);
+	background-repeat:no-repeat;
+	background-position:0 -2px;
+	}
+	
+#nav #nav-dining:hover {
+	background-position:0 -36px;
+	}
+	
+#nav #nav-going-out{
+	width:68px;
+	height:29px;
+	background-image:url(../images/nav-dark-going-out.gif);
+	background-repeat:no-repeat;
+	background-position:0 -2px;
+	}
+	
+#nav #nav-going-out:hover {
+	background-position:0 -36px;
+	}
+	
+#nav #nav-shopping{
+	width:68px;
+	height:29px;
+	background-image:url(../images/nav-dark-shopping.gif);
+	background-repeat:no-repeat;
+	background-position:0 -2px;
+	}
+	
+#nav #nav-shopping:hover {
+	background-position:0 -36px;
+	}
+	
+#nav #nav-fashion{
+	width:68px;
+	height:29px;
+	background-image:url(../images/nav-dark-fashion.gif);
+	background-repeat:no-repeat;
+	background-position:0 -2px;
+	}
+	
+#nav #nav-fashion:hover {
+	background-position:0 -36px;
+	}
+	
+#nav #nav-deal-estate{
+	width:68px;
+	height:29px;
+	background-image:url(../images/nav-dark-deal-estate.gif);
+	background-repeat:no-repeat;
+	background-position:0 -2px;
+	}
+	
+#nav #nav-deal-estate:hover {
+	background-position:0 -36px;
+	}
+	
+#nav #nav-news-features{
+	width:68px;
+	height:29px;
+	background-image:url(../images/nav-dark-news-features.gif);
+	background-repeat:no-repeat;
+	background-position:0 -2px;
+	}
+	
+#nav #nav-news-features:hover {
+	background-position:0 -36px;
+	}
+	
+#nav #nav-best-of{
+	width:68px;
+	height:29px;
+	background-image:url(../images/nav-dark-best-of.gif);
+	background-repeat:no-repeat;
+	background-position:0 -2px;
+	}
+	
+#nav #nav-best-of:hover {
+	background-position:0 -36px;
+	}
+	
+#nav #nav-marketplace{
+	width:68px;
+	height:29px;
+	background-image:url(../images/nav-dark-marketplace.gif);
+	background-repeat:no-repeat;
+	background-position:0 -2px;
+	}
+	
+#nav #nav-marketplace:hover {
+	background-position:0 -36px;
+	}
+	
+#nav #nav-home-garden{
+	width:68px;
+	height:29px;
+	background-image:url(../images/nav-dark-home-garden.gif);
+	background-repeat:no-repeat;
+	background-position:0 -2px;
+	}
+	
+#nav #nav-home-garden:hover {
+	background-position:0 -36px;
+	}
+/*ul#nav li a#nav-news:hover, ul#nav li a#nav-news.on {
+	background-position:0 -29px;
+	}*/
+	
+#searchbar {
+	border-bottom: 1px solid #7B7B7B;
+	float:left;
+	width:100%;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+
+#searchbar a {
+	color:#000;
+	}
+	
+#sitesearch {
+	position:relative;
+	width:100%;
+	}
+	
+#sitesearch .searchform {
+	width:300px;
+	background:url(../images/ch-search-bg.gif);
+	height:17px;
+	border:none;
+	line-height:23px;
+	padding:3px;
+	background-repeat:no-repeat;
+	position:absolute;
+	left:0;
+	top:0;
+	}
+
+#sitesearch .search-select {
+	background:url(../images/ch-search-bg.gif);
+	background-repeat:no-repeat;
+	position:absolute;
+	height:23px;
+	top:0;
+	left:320px;
+	border:none;
+	padding:3px;
+	width:110px;
+	}
+
+#sitesearch button {
+	background:url(../images/ch-search-button.gif);
+	border:none;
+	height:23px;
+	width:66px;
+	cursor:pointer;
+	margin-left:15px;
+	position:absolute;
+	top:0;
+	right:0;
+	}
+
+
+#searchbar div {
+	line-height:22px;
+	text-align:center;
+	padding:5px 10px;
+	border-right:solid 1px #7b7b7b;
+	float:left;
+	height:25px;
+	}
+	
+div#sitesearch {
+	padding-right:0;
+	float:right;
+	border-right:none;
+	}
+	
+#searchbar #date {
+	padding-left:0;
+	}
+	
+#weather img {
+	height:20px;
+	width:20px;
+	vertical-align:middle;
+	}
+
+#sponsorship {
+	float: right;
+	margin-right: 25px;
+	margin-top: 15px;
+}
+
+#topbanner {
+	margin-top:10px;
+	float:right;
+	}
+	
+#logo {
+	margin:0px;
+	}
+	
+#branding {
+	float:none;
+	width:980px;
+	height:80px;
+	padding: 10px 0px;
+
+	position:relative;
+	}
+	
+#top-links-search {
+	position:absolute;
+	top:20px;
+	right:0;
+	width:510px;
+	}
+	
+#top-links {
+	margin-bottom:15px;
+	color:#999;
+	font-size:11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+text-align: right;
+	}
+	
+#top-links a {
+	color:#999;
+	}
+#top-ad {
+text-align: center;
+padding: 10px 0px;
+clear: both;
+}

@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('font/OpenSans-Light.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('font/OpenSans-Bold.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('font/OpenSans-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Semibold';
+    src: url('font/OpenSans-Semibold.ttf')  format('truetype');
+}
+
+#subscribe{
+    width:70%;
+    font-family: 'OpenSans-Regular','Sans-serif';
+    height: 525px;
+}
+
+#subscribe .spopup{
+    width:100%;
+    background: url('../../tablesavvy/images/tablesavvy_modal_bg.jpg') #162529;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding : 45px 45px 25px 45px;
+    z-index: 9999;
+    display:none;
+}
+
+#subscribe .spopup h3 {
+    font-family: 'OpenSans-Bold','Sans-serif';
+    font-size:28px;
+    padding: 3px;
+}
+
+#subscribe .spopup p.claim {
+    font-size:14px;
+}
+
+#subscribe .spopup .meals {
+    font-size:16px;
+    margin: 25px 0 15px 0;
+}
+
+.spopup .note {
+    /*font-family: 'OpenSans-Light','Sans-serif';*/
+   text-align: center;
+}
+
+.spopup .content{
+    width: 35%;
+    text-align: left;
+}
+
+.spopup .signup {
+    text-transform: uppercase;
+    background-image: url('../../tablesavvy/images/signup_arrow.png') !important;
+    background-size: 25px 20px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    display: block;
+    font-weight: bold;
+    width: 100%;
+}
+
+.subscriptionList .close{
+    top: 2px !important;
+    display: none;
+}
+
+.subscriptionList{
+    position: fixed !important;
+    top: 15% !important;
+    left: 14% !important;
+    background: transparent !important;
+}
+
+.wrapperContainer::after {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    color: #fff;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.ui.message .list:not(.ui) li:before {
+    content: '';
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+{
+    #subscribe{ height: 550px; }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    background: url('../../tablesavvy/images/tablesavvy_modal_bg@2x.jpg') #162529;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)  {
+    .spopup .content{  width: 40%;  }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (orientation : portrait)  {
+    .spopup .content{  width: 50%;  }
+}

@@ -1,0 +1,52 @@
+#columns-1-2 {
+	width:627px;
+	float:left;
+	display:inline;
+	overflow:hidden;
+	}
+
+#splash {
+	padding-top:10px;
+	width:617px;
+	background-color:#fff;
+}
+
+#column-1 {
+	width:188px;
+	padding:9px 9px 9px 0;
+	text-align:left;
+	float:left;
+	display:inline;
+	overflow:hidden;
+}
+
+
+#column-2 {
+	width:410px;
+	margin-left:10px;
+	float:left;
+	display:inline;
+	overflow:hidden;
+}
+	
+#column-3 {
+	width:343px;
+	padding:9px 0 9px 9px;
+	float:left;
+	display:inline;
+	overflow:hidden;
+}
+
+.modulebox {
+	margin-bottom:10px;
+}
+
+#page-body {
+	background-image:url(../images/home-background.gif);
+	background-repeat:repeat-y;
+	}
+	
+#page-body-right {
+	background-image:url(../images/home-background-right-rule.gif);
+	background-repeat:repeat-y;
+	}

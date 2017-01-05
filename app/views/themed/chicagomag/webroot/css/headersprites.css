@@ -1,0 +1,98 @@
+.headersprite {
+	text-indent: -2000px;
+	width: 100%;
+	height: 27px;
+	background-repeat: no-repeat;
+	margin-bottom: .1em !important;
+}
+
+.bluesprite {
+	background-image: url("../images/sprites/header_sprite_blue.png");
+}
+
+.greensprite {
+	background-image: url("../images/sprites/header_sprite_green.png");
+}
+
+
+.yellowsprite {
+	background-image: url("../images/sprites/header_sprite_yellow.png");
+}
+
+.blacksprite {
+	background-image: url("../images/sprites/header_sprite_black.png");
+}
+
+.orangesprite {
+	background-image: url("../images/sprites/header_sprite_orange.png");
+}
+
+
+.magentasprite {
+	background-image: url("../images/sprites/header_sprite_magenta.png");
+}
+
+.diningsprite {
+	background-position: 0px 0px;
+}
+
+.newslettersprite {
+	background-position: 0px -27px;
+}
+
+.designsprite {
+	background-position: 0px -54px;
+}
+
+
+.shoppingsprite {
+	background-position: 0px -81px;
+}
+
+.editorssprite {
+	background-position: 0px -108px;
+}
+
+.partysprite {
+	background-position: 0px -135px;
+}
+
+.subscribesprite {
+	background-position: 0px -162px;
+}
+
+.sharesprite {
+	background-position: 0px -189px;
+}
+
+.magazinesprite {
+	background-position: 0px -216px;
+}
+
+.bestofsprite {
+	background-position: 0px -243px;
+}
+
+.featuredsprite {
+	background-position: 0px -270px;
+}
+
+.pennysprite {
+	background-position: 0px -297px;
+}
+
+.hotsprite {
+	background-position: 0px -324px;
+}
+
+.diningtweetssprite {
+	background-position: 0px -351px;
+}
+
+.bestofdiningsprite {
+	background-position: 0px -378px;
+}
+
+.liketopartysprite {
+	background-position: 0px -405px;
+}

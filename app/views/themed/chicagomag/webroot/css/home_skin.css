@@ -1,0 +1,78 @@
+.jcarousel-list-horizontal{
+    float: left !important;
+    padding-left: 4px !important;
+    padding-top: 6px !important;
+}
+.jcarousel-skin-tango-home .jcarousel-container-horizontal {
+    width: 160px;
+    float: left;
+}
+.jcarousel-skin-tango-home .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-tango-home .jcarousel-clip-horizontal {
+    width:  160px;
+}
+
+.jcarousel-skin-tango-home .jcarousel-item {
+    width: 160px !important;
+    float: left;
+}
+
+.jcarousel-skin-tango-home .jcarousel-item-horizontal {
+	margin-left: 0;
+}
+
+.jcarousel-skin-tango-home .jcarousel-direction-rtl .jcarousel-item-horizontal {
+    margin-right: 0;
+}
+
+.jcarousel-skin-tango-home .jcarousel-item-vertical {
+}
+
+.jcarousel-skin-tango-home .jcarousel-item-placeholder {
+    /*background: #fff;*/
+	border-right:none;
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-tango-home .jcarousel-next-horizontal {
+    position: absolute;
+    right: -9px;
+    top: 19px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    background:url(../images/caret-right-smaller.png) no-repeat center center;
+}
+
+.jcarousel-skin-tango-home .jcarousel-prev-horizontal {
+    position: absolute;
+    left: -10px;
+    top: 19px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    background:url(../images/caret-left-smaller.png) no-repeat center center;
+}
+
+.jcarousel-skin-tango-home .jcarousel-prev-horizontal{
+    color: #555555 !important;
+    text-shadow: none;
+}
+.jcarousel-skin-tango-home .jcarousel-next-horizontal {
+    color: #555555 !important;
+    text-shadow: none;
+}
+.jcarousel-prev-disabled{
+    background: none !important;
+    border: 0px;
+}
+.jcarousel-next-disabled{
+    background: none !important;
+    border: 0px;
+}

@@ -1,0 +1,182 @@
+@import url('fonts.css');
+body{
+    font-family: "AvenirLTStd65Medium";
+    font-size: 8.5pt;
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    width: 100% !important;
+}
+h3 {
+    color: #000000;
+    font-size: 16pt;
+    line-height: 1.1em;
+    margin-bottom: 0.5em;
+    margin-top: 0px;
+    text-align: center;
+}
+.module-hatched {
+    /*background: url("../images/background_widgets.png") repeat-y scroll 50% 0 rgba(0, 0, 0, 0);*/
+    background:#000;
+    padding: 3px;
+}
+.tsSubmit a{
+    color: #000000 ! important; 
+    text-decoration: none;
+    text-shadow: 0 1px 0 #444444;
+    font-size: 14px;
+    font-weight: normal;
+}
+#change{
+    width: 100%;
+}    
+.jcarousel-prev-disabled{
+   /*background:url(images/left_dis.png) no-repeat 0 0 transparent !important;*/
+    height:15px !important;
+}
+.jcarousel-next-disabled{
+    /*background:url(images/right_dis.png) no-repeat 0 0 transparent !important;*/
+    height:15px !important;
+}
+.toolTip{
+    display:inline !important;
+}
+.jcarousel1-skin-tangos .jcarousel1-clip-horizontal{
+    height:100px !important;
+    margin:0 0 0 0px !important;
+    /*width:306px !important;*/
+    width:270px !important;
+}
+#select_search{
+    padding-bottom:0px !important;
+}
+.clearfix{
+    overflow:inherit !important;
+}
+.jcarousel-skin-tango .jcarousel-container-horizontal{
+    width:150px;
+}
+a{
+    color:#ffffff !important;
+    font-weight:bold;
+}
+.search{
+    text-decoration:none; 
+    color:#FFFFFF; 
+    text-shadow:0 1px 0 #444444; 
+}
+.prodcut_img{
+    width:120px;
+    height: 105px;
+    float:left;
+    margin-right: 10px;
+}
+.product .prodcut_details {
+    float: left;
+    width: 160px;
+}
+.product .prodcut_details {
+    color: #666666;
+    font-size: 0.8em;
+}
+.res_name {
+    color: #0099CD !important;
+    /*color: #000000!important;*/
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    word-break:break-all;
+    text-decoration: none;
+}
+.product-name{
+	font-size:17px;
+	display:block;
+	font-weight:bold;
+}
+.prodcucontainer li.product span {
+    color: #797A7A;
+    font-family: arial;
+    font-size: 12px !important;
+    padding-bottom: 0px;
+    z-index: 2;
+}
+.prodcut_details{
+    float: left;
+   width: 100%;
+}
+.party-size2, .party_size, .product-name{
+   float: left;
+   width: 138px; 
+}
+.chnge{
+	color:#FFFFFF !important;
+}
+.product-image img{
+	margin:0 0 0 0;
+	border:0px !important;
+}
+.prodcucontainer ul{
+    margin: 0;
+    padding: 0;
+}
+.prodcucontainer li.product {
+    float: left;
+    height: 100px;
+    list-style: none outside none;
+    /*margin: 6px 0px 0 0;*/
+    width: 314px;
+}
+.prodcut_time_details {
+    float: left;
+    width: 180px;
+    position: relative;
+}
+.product .time3 {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  float: left;
+  /*background-color: #0196C9;*/
+  background:#009bcc;
+  /*background-image: -moz-linear-gradient(center top, #0099cd, #0391c2);*/
+  background-repeat: repeat-x;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 10pt;
+  line-height: normal;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  padding: 3px 3px;
+  text-align: center;
+  text-shadow: 0 1px 0 #444444;
+  vertical-align: middle;
+  width: 50px;
+}
+.product .time3 a,
+.product .time3 a:hover {
+  color: #a41b1f;
+  text-decoration: none;
+  font: normal 11px arial;
+}
+.product .time3:hover {
+  background: #000;
+}
+#mycarousel li{
+  list-style: none;
+  float: left;
+  width: 100%;
+}

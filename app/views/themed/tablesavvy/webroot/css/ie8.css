@@ -1,0 +1,89 @@
+/*.erro_class .error-message {
+	padding-bottom:7px!important;
+}
+.login-required .error-message{
+	padding-bottom:7px!important;
+}
+.login-heading{
+	margin-top:40px;
+}
+.con-required .error-message{
+	padding-bottom:7px!important;
+}
+.register-reservation-top{
+	margin-top:25px;
+}
+.signup-login .error-message{
+	padding:7px 0px 10px 0;
+	margin:0 !important;
+	width: 69%!important;
+}
+.contact-form-signup .error-message {
+	padding:7px 0px 10px 0;
+	margin:0 !important;
+	width: 65%!important;
+}
+.modal-profile-inner{
+	padding-right:0px !important;
+}
+#popup_title {
+	color:#CCCCCC !important;
+	text-indent:0 !important;
+}
+#confirmationTable{
+	margin-left:0px;
+}
+.paginate{
+	width:100%;
+	float:left;
+}
+.disabled{
+	width:25px;
+	float:left;
+}
+.float{
+	float:left;
+	margin-top:-14px;
+}
+.paginate .next{
+	margin-top:-16px;
+}
+.class_ie{
+	margin-top:-16px;
+}
+.contact-wrapper{
+	padding-top:40px;
+}
+.profile_change_pass .error-message{
+	padding-bottom:7px !important;
+}
+.forgot-space .error-message{
+	width: 72%!important;	
+}
+.submit .upload_but{
+	float:left;
+}
+.ie_edit{
+	margin-top:2px;
+}
+.ie_edit_a{
+	margin-top:0px;
+}
+.padding_class{
+	padding-top:10px!important;
+}
+.my-location-right{
+	margin:-30px 0 0 0 !important;
+}
+.for_res{
+	margin:-40px 0 0 140px !important;
+	float:left !important;
+	height:20px;
+}*/
+
+input.textbox-contact, textarea.textarea-contact{width:278px; height:37px; margin:0px; padding:0 10px; border:1px solid #C6C4C4; outline:none; 
+float:right; font-family:Arial, Helvetica, sans-serif; background-color:#FBFBFB; -webkit-border-radius: 5px; -khtml-border-radius: 5px; -moz-border-radius: 5px;	border-radius: 5px; font-size:13px; color:#747474; line-height:37px;   }
+input.textbox-signup{margin:0px; padding:0 10px; border:1px solid #C6C4C4; outline:none; 
+float:right; font-family:Arial, Helvetica, sans-serif; background-color:#FBFBFB; -webkit-border-radius: 5px; -khtml-border-radius: 5px; -moz-border-radius: 5px;	border-radius: 5px; font-size:13px; color:#747474; line-height:37px;   }
+textarea.textarea-contact{margin:0px; padding:10px 10px; border:1px solid #C6C4C4; outline:none; 
+float:right; font-family:Arial, Helvetica, sans-serif; background-color:#FBFBFB; -webkit-border-radius: 5px; -khtml-border-radius: 5px; -moz-border-radius: 5px;	border-radius: 5px; font-size:13px; color:#747474; line-height:16px;   }
